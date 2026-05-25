@@ -1,4 +1,4 @@
-# Anarchy Online Crash Popup Remover
+# Project Rubi-Ka Crash Popup Remover
 
 A lightweight, zero-dependency Windows utility designed to patch the `Anarchy.exe` client. This utility forces the client to bypass the two blocking error/maintenance message boxes that appear when the application crashes.
 
