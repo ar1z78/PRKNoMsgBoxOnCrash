@@ -34,6 +34,17 @@ Navigate to the directory containing `nomsgaftercrash.c` source code file and ex
 gcc -Os -s -ffreestanding -nostdlib -e ___main__ -o nomsgaftercrash.exe nomsgaftercrash.c -lkernel32 -lcomdlg32
 ```
 
+### Alternative
+
+If you don't want to download the portable **w64devkit**
+
+1. Open the **Command Prompt** (`cmd.exe`).
+2. Run the following command to compile your executable:
+
+```cmd
+C:\Windows\Microsoft.NET\Framework64\v4.\(0.30319\csc.\)exe /target:exe /out:nomsgaftercrash.exe nomsgaftercrash.cs
+```
+
 ### Compiler Flag Breakdown:
 *   `-Os`: Minimizes file size above all else.
 *   `-s`: Strips all debugging symbols to drastically minimize the output footprint.
