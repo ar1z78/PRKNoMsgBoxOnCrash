@@ -42,7 +42,7 @@ If you don't want to download the portable **w64devkit**
 2. Run the following command to compile your executable:
 
 ```cmd
-C:\Windows\Microsoft.NET\Framework64\v4.\0.30319\csc.\exe /target:exe /out:nomsgaftercrash.exe nomsgaftercrash.cs
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:exe /out:nomsgaftercrash.exe nomsgaftercrash.cs
 ```
 
 ### Compiler Flag Breakdown:
